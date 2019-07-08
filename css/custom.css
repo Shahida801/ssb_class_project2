@@ -1,0 +1,433 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto+Condensed:300i,400,700&display=swap');
+/*font-family: 'Righteous', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+body{
+
+font-family: 'Roboto Condensed', sans-serif;
+}
+img{max-width: 100%;filter: grayscale(1);}
+a{
+    text-decoration: none;
+    display: block;
+}
+header{
+    padding: 30px 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 70%;
+    float: left;
+}
+
+
+.logo h1
+{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+nav{
+    width: 30%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #2f3031;
+    padding: 35px 20px;
+}
+nav ul li a :hover{}
+
+.banner-section{
+    width: 1400px;
+    padding: 96px;
+}
+.banner-section img{
+    width: 100%;
+}
+
+
+.photodiary-section{padding: 80px 0;background-color: #e3efeb;}
+.padd{
+    padding: 80px;
+}
+article{
+    padding: 2.5em;
+    color: #ad9779;
+    width: 100%;
+}
+article span{
+    text-transform: uppercase;
+    color: #23483c;
+}
+article h1{
+    font-size: 2.5em;
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: #844f4f;
+    font-weight: 500;
+}
+article p{
+    font-size: 18px;
+    color: #171918;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+article a{}
+
+.blog-section{}
+.blog{
+    width: 50%;
+    float: left;
+}
+.blog img{
+    filter: grayscale(1);
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.loadmore{
+}
+
+.signup-section{
+    background-color: #f5eded;
+    padding: 80px;
+    text-align: center;
+}
+.signup-section h2{
+    font-size: 2em;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #507367;
+    font-weight: 600;
+}
+form{
+    border-bottom: 1px solid #777;
+    max-width: 300px;
+    /* border: 0; */
+}
+form input{
+    padding: 20px 15px;
+    border: 1px solid #777;
+}
+form button{
+    background-color: #c9d2e4;
+    border: 0;
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+
+footer{
+    background: #d8e0e6;
+    padding: 40px;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+    list-style: none;
+    float: left;
+}
+.footer-menu ul li a{
+    text-transform: uppercase;
+    padding: 10px 4px;
+    color: #1c2522;
+    font-size: 15px;
+}
+.footer-menu ul li a:hover{
+    color: #352b1d;
+}
+
+
+
+.social-menu{
+    width: 50%;
+    float: left;
+}
+.social-menu ul{text-align: right;}
+.social-menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.social-menu ul li strong{
+    margin-right: 30px;
+    text-transform: uppercase;
+    color: #13110f;
+    font-weight: 500;
+}
+.social-menu ul li a{
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+}
+.social-menu ul li a:hover {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto+Condensed:300i,400,700&display=swap');
+/*font-family: 'Righteous', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+body{
+
+font-family: 'Roboto Condensed', sans-serif;
+}
+img{max-width: 100%;filter: grayscale(1);}
+a{
+    text-decoration: none;
+    display: block;
+}
+header{
+    padding: 30px 0;
+}
+.container{text-align:center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 70%;
+    float: left;
+}
+
+
+.logo h1
+{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+nav{
+    width: 30%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #2f3031;
+    padding: 35px 20px;
+}
+nav ul li a :hover{}
+
+.banner-section{
+    width: 1400px;
+    padding: 96px;
+}
+.banner-section img{
+    width: 100%;
+}
+
+
+.photodiary-section{padding: 80px 0;background-color: #e3efeb;}
+.padd{
+    padding: 80px;
+}
+article{
+    padding: 2.5em;
+    color: #ad9779;
+    width: 100%;
+}
+article span{
+    text-transform: uppercase;
+    color: #23483c;
+}
+article h1{
+    font-size: 2.5em;
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: #844f4f;
+    font-weight: 500;
+}
+article p{
+    font-size: 18px;
+    color: #171918;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+article a{}
+
+.blog-section{
+    padding: 40px;
+    width: 100%;
+    float: left;
+}
+.blog{
+    width: 50%;
+    float: left;
+}
+
+.blog img{
+    /* max-width:580px; */
+    filter: grayscale(1);
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.loadmore{
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 1px solid #666;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.signup-section{
+    padding: 100px;
+    background-color: #fbfafa;
+    text-align: center;
+}
+.signup-section h2{
+    font-size: 2em;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #507367;
+    font-weight: 600;
+}
+form{
+    border-bottom: 1px solid #777;
+    max-width: 350px;
+    margin: auto;
+}
+form input{
+    padding: 20px 15px;
+    border: 1px solid #777;
+}
+form button{
+    background-color: #c9d2e4;
+    border: 0;
+    font-size: 20px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+footer{
+    background: #f3f5f7;
+    padding: 40px;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+    list-style: none;
+    float: left;
+}
+.footer-menu ul li a{
+    text-transform: uppercase;
+    padding: 10px 4px;
+    color: #1c2522;
+    font-size: 15px;
+}
+.footer-menu ul li a:hover{
+    color: #352b1d;
+}
+
+
+
+.social-menu{
+    width: 50%;
+    float: left;
+}
+.social-menu ul{text-align: right;}
+.social-menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.social-menu ul li strong{
+    margin-right: 30px;
+    text-transform: uppercase;
+    color: #13110f;
+    font-weight: 500;
+}
+.social-menu ul li a{
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+}
+.social-menu ul li a:hover {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
